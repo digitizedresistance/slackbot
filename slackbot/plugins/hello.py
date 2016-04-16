@@ -35,7 +35,7 @@ def hello_send(message):
 def hello_decorators(message):
     message.send('hello!')
 
-@listen_to('hey!')
+@listen_to('hey')
 def hey(message):
     message.react('eggplant')
 
